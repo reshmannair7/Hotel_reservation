@@ -1,0 +1,48 @@
+/*---------------------admin login form----------------------------*/
+.form_div 
+{
+    width: 30%;
+    margin: auto;
+}
+.form_div button.signIn-btn
+{
+    width: 100%;
+}
+
+span.error p,span.error
+{
+    color:red;
+    font-size: 12px;
+}
+
+
+
+/*---------------------admin dashboard----------------------------*/
+.left-sidenav {
+    width: 100%;
+    height: 100vh;
+    background: #f8f9fa;
+    margin-left: -15px;
+}
+.table_list_view button.btn.btn-primary 
+{
+    float: right;
+    margin:10px 15px;
+}
+span.success
+{
+    color:green;
+    font-size: 12px;
+}
+.image_ul
+{
+    list-style: none;
+}
+button.SignUp_link {
+    border: none;
+    background: #fff;
+    float: right;
+    margin-top: 1em;
+    text-decoration: underline;
+    outline: none;
+}
