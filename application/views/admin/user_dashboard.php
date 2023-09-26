@@ -164,6 +164,7 @@ $(document).ready(function() {
                	console.log(room.id);
                          roomNumber.append('<option value=' + room.id + '>' + room.room_number + '</option>');
                     });
+               console.log(data);
                 
             },
             error: function(xhr, status, error) {
